@@ -1,0 +1,408 @@
+/*
+Color nav & footer: #2c3e50
+Color presentation & about: #18bc9c
+Color star: #212539
+Fonts: Motserrat & Lato
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav bar */
+nav {
+  position: fixed;
+  background-color: #2c3e50;
+  width: 1280px;
+  height: 80px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.brand { /* Título logo */
+  margin: 25px 142px;
+  font-size: 25px;
+}
+
+.menu {
+  top: 30px;
+  margin: 30px 7px;
+  font-size: 14px;
+}
+
+.menu-position {
+  margin-right: 142px;
+}
+
+/* Presentation section */
+.presentation {
+  background-color: #18bc9c;
+  width: 1280px;
+  height: 631px;
+  text-align: center;
+  color: white;
+}
+
+.presentation > img {
+  margin-top: 95px;
+  width: 232px;
+  height: 232px;
+}
+
+.presentation > a {
+  display: block;
+}
+
+.presentation > .title {
+  font-size: 70px;
+  font-weight: 800;
+  margin-top: 24px;
+}
+
+.presentation > .star {
+  margin-top: 23px;
+}
+
+.presentation > .star > img { /* Tamaño estrella */
+  width: 29px;
+  height: 29px;
+}
+
+.presentation > .star:before { /* Línea antes de estrella */
+    display: inline-block;
+    margin: 0 5px 12px 0;
+    height: 5px;
+    content: " ";
+    background-color: white;
+    width: 90px;
+}
+
+.presentation > .star:after { /* Línea después de estrella */
+    display: inline-block;
+    margin: 0 0 12px 5px;
+    height: 5px;
+    content: " ";
+    background-color: white;
+    width: 90px;
+}
+
+.presentation > .career {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* Portfolio section */
+.portfolio {
+  background-color: #fff;
+  width: 1280px;
+  height: 791px;
+  text-align: center;
+}
+
+.portfolio > a {
+  position: relative;
+  font-size: 45px;
+  font-weight: 800;
+  top: 88px;
+  color: #212539;
+}
+
+.portfolio > .star {
+  margin-top: 100px;
+}
+
+.portfolio > .star > img { /* Tamaño estrella */
+  width: 29px;
+  height: 29px;
+}
+
+.portfolio > .star:before { /* Línea antes de estrella */
+    display: inline-block;
+    margin: 0 5px 12px 0;
+    height: 5px;
+    content: " ";
+    background-color: #212539;
+    width: 90px;
+}
+
+.portfolio > .star:after { /* Línea después de estrella */
+    display: inline-block;
+    margin: 0 0 12px 5px;
+    height: 5px;
+    content: " ";
+    background-color: #212539;
+    width: 90px;
+}
+
+.portfolio > .projects {
+  display: inline-block;
+  margin-top: -20px;
+}
+
+.portfolio > .projects > div > img {
+  width: 315px;
+  height: 230px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+/* About section */
+.about {
+  background-color: #18bc9c;
+  width: 1280px;
+  height: 516px;
+  text-align: center;
+  color: white
+}
+
+.about > a {
+  position: relative;
+  font-size: 45px;
+  font-weight: 800;
+  top: 88px;
+}
+
+.about > .star {
+  margin-top: 100px;
+}
+
+.about > .star > img { /* Tamaño estrella */
+  width: 29px;
+  height: 29px;
+}
+
+.about > .star:before { /* Línea antes de estrella */
+    display: inline-block;
+    margin: 0 5px 12px 0;
+    height: 5px;
+    content: " ";
+    background-color: white;
+    width: 90px;
+}
+
+.about > .star:after { /* Línea después de estrella */
+    display: inline-block;
+    margin: 0 0 12px 5px;
+    height: 5px;
+    content: " ";
+    background-color: white;
+    width: 90px;
+}
+
+.about > .about-info { /* Estilo para texto en About section */
+  font-family: 'Lato', sans-serif;
+  margin-top: 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about > .about-info > .info-left { /* Texto izquierda */
+  display: inline-block;
+  text-align: left;
+  width: 308px;
+  height: 153px;
+  margin-right: 33px;
+}
+
+.about > .about-info > .info-right { /* Texto derecha */
+  display: inline-block;
+  text-align: left;
+  width: 308px;
+  height: 153px;
+}
+
+.about > .about-button { /* Download Theme button */
+  border-radius: 5px;
+  border: 2px solid white;
+  width: 192px;
+  height: 45px;
+  margin-left: 544px;
+  margin-top: 23px;
+}
+
+.about > .about-button > img { /* Estilo para download icon */
+  margin-top: 14px;
+  width: 17px;
+  height: 17px;
+}
+
+.about > .about-button > a { /* Estilo para texto "Download" */
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+/* Contact section */
+.contact {
+  background-color: white;
+  width: 1280px;
+  height: 801px;
+  color: #000;
+  text-align: center;
+}
+
+.contact > a {
+  position: relative;
+  font-size: 45px;
+  font-weight: 800;
+  top: 88px;
+  color: #212539;
+}
+
+.contact > .star {
+  margin-top: 100px;
+}
+
+.contact > .star > img { /* Tamaño estrella */
+  width: 29px;
+  height: 29px;
+}
+
+.contact > .star:before { /* Línea antes de estrella */
+    display: inline-block;
+    margin: 0 5px 12px 0;
+    height: 5px;
+    content: " ";
+    background-color: #212539;
+    width: 90px;
+}
+
+.contact > .star:after { /* Línea después de estrella */
+    display: inline-block;
+    margin: 0 0 12px 5px;
+    height: 5px;
+    content: " ";
+    background-color: #212539;
+    width: 90px;
+}
+
+.contact > .contact-info { /* Ajustando tamaño al contenedor "contact-info"*/
+  width: 657px;
+  height: 408px;
+  margin-left: 311px;
+}
+
+.contact > .contact-info > .info,
+.contact > .contact-info > .info-message { /* Ajustando margen de contenedor "info" */
+  margin-bottom: 30px;
+}
+
+.contact > .contact-info > .info > hr { /* Ajustando margen de hr */
+  margin-top: 30px;
+}
+
+.contact > .contact-info > .info-message > hr { /* Ajustando margen de hr del contenedor "info-message" */
+  margin-top: 135px;
+}
+
+.contact > .contact-info > .info > p,
+.contact > .contact-info > .info-message > p { /* Estilo para p en "contact-info" */
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #868e96;
+  text-align: left;
+}
+
+.contact > .contact-info > .info > hr,
+.contact > .contact-info > .info-message > hr { /* Estilo para línea en "contact-info" */
+  border: 1px solid #f9f9f9;
+}
+
+.contact > .contact-button { /* Estilo botón "Send" */
+  border-radius: 5px;
+  background-color: #18bc9c;
+  width: 70px;
+  height: 43px;
+  margin-left: 311px;
+  margin-top: 33px;
+}
+
+.contact > .contact-button > a { /* Estilo de "Send" */
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  top: 8px;
+}
+
+/* Footer section */
+
+.footer {
+  background-color: #2c3e50;
+  width: 1280px;
+  height: 303px;
+  text-align: center;
+}
+
+.footer > .container {
+  position: relative;
+  width: 1033px;
+  height: 129px;
+  left: 118px;
+  top: 48px;
+}
+
+.footer > .container > .container-info {
+  width: 295px;
+  height: 129px;
+  margin-right: 46px;
+  color: white;
+}
+
+.footer > .container > .container-info > span {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.footer > .container > .container-info > .social-media > img {
+  width: 46px;
+  height: 46px;
+}
+
+.footer > .container > .container-info > .info {
+  position: relative;
+  width: 295px;
+  height: 77px;
+  top: 23px;
+}
+
+.footer > .container > .container-info > .info > p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer > .container > .container-info > .info > p > span { /* Estilo para cambiar de color "Start Bootstrap"*/
+  color: #18bc9c;
+}
+
+.footer > p { /* Estilo para Copyright */
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  margin-top: 126px;
+}
+
+/* Clases reutilizables */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
